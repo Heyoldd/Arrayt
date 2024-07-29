@@ -1,0 +1,5 @@
+const arrayOfNumers = ["43", "56", "23", "89", "88", "90" ,"99", "652" ,"15" ,"290", "11"]
+
+const add = arrayOfNumers.unshift('1');
+
+console.log(arrayOfNumers);
