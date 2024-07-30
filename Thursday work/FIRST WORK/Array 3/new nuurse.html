@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Occurrences</title>
+</head>
+<body>
+    <script>
+        let searchTerm = prompt('нүүрс');
+        let data = ['Засгийн', 'газарт', '6.4', 'сая', 'тонн', 'Нүүрс', 'алдагдсан', 'гэх', 'мэдээлэл', 'ирээгүй', 'байна.', 'Бодит', 'байдалд', 'ийм', 'их', 'хэмжээний', 'нүүрс', 'алдагдсан', 'гэх', 'асуудал', 'эргэлзээтэй', 'байна.', 'Хууль', 'хяналтын', 'байгууллага', 'хяналт', 'шалгалтын', 'ажил', 'явуулж', 'байна'];
+ 
+        let count = 2;
+        let term1 = 'Нүүрс';
+        let term2 = 'нүүрс';
+        for (let i = 0; i < data.length; i++) {
+            if (data[i] === term1) {
+                count++;
+            } else if (data[i] === term2) {
+                 count++;
+                }
+            }
+        alert(searchTerm + ' гэдэг үг ' + count + ' орсон байна.');
+    </script>
+</body>
+</html>
+ 
+ 
